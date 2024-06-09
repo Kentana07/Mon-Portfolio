@@ -11,12 +11,14 @@ const Projects = () => (
                     Parmi vos prospects, il y a le site de Nina Carducci, une photographe "
       skills="Skills = optimiser le référencement d’un site, en améliorant sa performance et son accessibilité."
       link="https://kentana07.github.io/NinaCarducci-Projet-9/"
+      code="https://github.com/Kentana07/NinaCarducci-Projet-9"
     />
     <ProjectItem
-      title="Projet 2"
-      description="Description du projet 2"
-      skills="Compétences développées"
-      link="http://github.com/your-repo/project2"
+      title="Projet Print-it"
+      description="Description = dynamiser le site Internet statique d’une petite imprimerie"
+      skills="Skills = Programmer en utilisant les fondamentaux de JavaScript et manipulation de code deja crée"
+      link="https://kentana07.github.io/Java-script_open/"
+      code="https://github.com/Kentana07/Java-script_open"
     />
   </div>
 );

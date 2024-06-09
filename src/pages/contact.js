@@ -4,7 +4,7 @@ import '../styles/contact.css';
 const Contact = () => (
   <div className="contact">
     <h1>Contactez-moi</h1>
-    <p>Email : [  Kellian07@gmail.com ]</p>
+    <p>Email :   Kellian07@gmail.com </p>
   </div>
 );
 

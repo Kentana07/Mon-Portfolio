@@ -5,9 +5,9 @@ const About = () => (
   <div className="about">
     <h1>À propos de moi</h1>
     <p>
-      Formation : [Openclassrooms ; Développeur intégrateur web - code NSF 326t - Diplôme de
+      Formation : Openclassrooms ; Développeur intégrateur web - code NSF 326t - Diplôme de
       niveau 5 (bac +2) - certification professionnelle enregistrée au
-      Répertoire National des Certifications Professionnelles (RNCP)]
+      Répertoire National des Certifications Professionnelles (RNCP)
     </p>
     <p>
       Compétences : HTML, CSS, SASS, JavaScript, React & Redux, les appels API,
