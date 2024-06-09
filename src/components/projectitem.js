@@ -9,6 +9,7 @@ const ProjectItem = ({ title, description, skills, link, code }) => (
     <a href={link} target="_blank" rel="noopener noreferrer">
       Voir le projet
     </a>
+    <p>   /  </p>
     <a href={code} target="_blank" rel="noopener noreferrer">
       Voir le code du projet
     </a>
