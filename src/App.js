@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Header from "./components/header";
 import Home from "./pages/home";
 import About from "./pages/about";
@@ -9,6 +9,12 @@ import Footer from "./components/footer";
 import './styles/app.css';
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    localStorage.setItem("lastVisitedPage", location.pathname);
+  }, [location.pathname]);
+
   return (
     <Router basename="/Mon-Portfolio">
       <div className="App">
