@@ -6,11 +6,11 @@ import About from "./pages/about";
 import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 import Footer from "./components/footer";
-import "./styles/app.css";
+import './styles/app.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Mon-Portfolio">
       <div className="App">
         <Header />
         <main>
