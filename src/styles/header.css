@@ -2,8 +2,8 @@
     background-color: #333;
     padding: 1rem;
     color: white;
-    font-family: 'Cinzel', serif; /* Médiéval */
-    border-bottom: 2px solid #ffd700; /* Orné */
+    font-family: 'Cinzel', serif; 
+    border-bottom: 2px solid #ffd700; 
   }
   
   .header nav ul {
@@ -15,15 +15,15 @@
   }
   
   .header nav ul li a {
-    color: #ffd700; /* Couleur or */
+    color: #ffd700; 
     text-decoration: none;
     font-weight: bold;
-    font-family: 'Orbitron', sans-serif; /* Futuriste */
+    font-family: 'Orbitron', sans-serif; 
   }
   
   .header nav ul li a:hover {
     text-decoration: underline;
-    color: #0ff; /* Couleur néon */
+    color: #0ff; 
   }
   
   @media (max-width: 768px) {

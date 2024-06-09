@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  margin-top: 60px; /* Adjust according to your header height */
+  margin-top: 60px; 
 }
 
 h1,
@@ -15,11 +15,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffd700; /* Couleur or */
+  color: #ffd700;
 }
 
 a {
-  color: #0ff; /* Couleur néon */
+  color: #0ff; 
   text-decoration: none;
 }
 
@@ -29,12 +29,12 @@ a:hover {
 
 button {
   background-color: #444;
-  color: #ffd700; /* Couleur or */
+  color: #ffd700; 
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
-  font-family: "Orbitron", sans-serif; /* Futuriste */
+  font-family: "Orbitron", sans-serif; 
 }
 
 button:hover {
