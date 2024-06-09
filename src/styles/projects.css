@@ -1,0 +1,18 @@
+.projects {
+    padding: 2rem;
+    background-color: #222;
+    color: #ffd700; /* Couleur or */
+    font-family: 'Cinzel', serif; /* Médiéval */
+  }
+  
+  .projects h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0ff; /* Couleur néon */
+    font-family: 'Orbitron', sans-serif; /* Futuriste */
+  }
+  
+  .project-item {
+    margin-bottom: 2rem;
+  }
+  

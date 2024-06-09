@@ -1,0 +1,37 @@
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: 'Cinzel', serif; /* Médiéval */
+    border-top: 2px solid #ffd700; /* Orné */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .social-links {
+    margin-top: 0.5rem;
+  }
+  
+  .social-links a {
+    color: #ffd700; /* Couleur or */
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #0ff; /* Couleur néon */
+  }
+  

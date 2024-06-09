@@ -1,0 +1,33 @@
+.project-item {
+    border: 1px solid #444;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+    background-color: #333;
+  }
+  
+  .project-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #0ff; /* Couleur néon */
+    font-family: 'Orbitron', sans-serif; /* Futuriste */
+  }
+  
+  .project-item p {
+    font-size: 1.25rem;
+    color: #ddd;
+  }
+  
+  .project-item a {
+    color: #ffd700; /* Couleur or */
+    text-decoration: none;
+  }
+  
+  .project-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .project-item:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  

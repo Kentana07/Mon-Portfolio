@@ -1,0 +1,34 @@
+.header {
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+    font-family: 'Cinzel', serif; /* Médiéval */
+    border-bottom: 2px solid #ffd700; /* Orné */
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header nav ul li a {
+    color: #ffd700; /* Couleur or */
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif; /* Futuriste */
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline;
+    color: #0ff; /* Couleur néon */
+  }
+  
+  @media (max-width: 768px) {
+    .header nav ul {
+      flex-direction: column;
+    }
+  }
+  

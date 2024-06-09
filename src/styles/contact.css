@@ -1,0 +1,20 @@
+.contact {
+    padding: 2rem;
+    text-align: center;
+    background-color: #222;
+    color: #ffd700; /* Couleur or */
+    font-family: 'Cinzel', serif; /* Médiéval */
+  }
+  
+  .contact h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0ff; /* Couleur néon */
+    font-family: 'Orbitron', sans-serif; /* Futuriste */
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    color: #ddd;
+  }
+  
