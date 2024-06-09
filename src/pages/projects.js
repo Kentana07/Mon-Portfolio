@@ -15,7 +15,7 @@ const Projects = () => (
     />
     <ProjectItem
       title="Projet Print-it"
-      description="Description = dynamiser le site Internet statique d’une petite imprimerie"
+      description="Description = Dynamiser le site Internet statique d’une petite imprimerie"
       skills="Skills = Programmer en utilisant les fondamentaux de JavaScript et manipulation de code deja crée"
       link="https://kentana07.github.io/Java-script_open/"
       code="https://github.com/Kentana07/Java-script_open"
