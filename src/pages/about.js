@@ -20,13 +20,17 @@ const About = () => (
     </p>
     <h1>Compétences :</h1>
     <p>
-      Système embarqué, Établir un cahier des charges, Concevoir
-      une application web Informatique scientique et technique, HTML, CSS, SASS,
-      JavaScript, React & Redux, les appels API, Visual Studio Code, le
-      responsive design, Git & GitHub.
+      Système embarqué, Établir un cahier des charges, Concevoir une application
+      web Informatique scientique et technique, HTML, CSS, SASS, JavaScript,
+      React & Redux, les appels API, Visual Studio Code, le responsive design,
+      Git & GitHub
     </p>
     <h1>Savoir-être :</h1>
-    <p>Curiosité, Autonomie, Prise de recul, Rigueur,</p>
+    <p>Curiosité, Autonomie, Prise de recul, Rigueur</p>
+    <h1>Langues :</h1>
+    <p>Anglais Courant</p>
+    <p>Espagnol Débutant</p>
+    <p>Japonais Débutant</p>
   </div>
 );
 
