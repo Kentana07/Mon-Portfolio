@@ -1,8 +1,8 @@
 import React from "react";
-import backgroundImage1 from "../../public/langue.webp";
-import backgroundImage2 from "../../public/langue2_.webp";
-import backgroundImage3 from "../../public/langue3.webp";
-import backgroundImage4 from "../../public/téléchargement.webp";
+import backgroundImage1 from "../styles/img/téléchargement.webp";
+import backgroundImage2 from "../styles/img/langue2_.webp";
+import backgroundImage3 from "../styles/img/langue3.webp";
+import backgroundImage4 from "../styles/img/langue.webp";
 import "../styles/about.css";
 
 const About = () => (
