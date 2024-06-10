@@ -21,7 +21,7 @@
   }
   .about h2 {
     margin-bottom: 10px;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #0ff;
     display: inline-block;
   }
   .about p {
@@ -38,5 +38,5 @@
 }
 
 .timeline-item h3 {
-  color: #007bff;
+  color: #ffd700;
 }
