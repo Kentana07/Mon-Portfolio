@@ -32,7 +32,7 @@
       align-items: center;
       justify-content: center;
     }
-    .header nav ul li a {
+    .header nav ul li {
       margin-bottom: 20px;
     }
   }
