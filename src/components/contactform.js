@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
-import '../styles/contactform.css';
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
+import "../styles/contactform.css";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
+    name: "",
+    email: "",
+    message: "",
   });
 
-  const [successMessage, setSuccessMessage] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -20,19 +20,25 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.send('service_cixqloq', 'template_wvkkojg', formData, 'IjSijs_cOtRPqwmjs')
+    emailjs
+      .send(
+        "service_cixqloq",
+        "template_wvkkojg",
+        formData,
+        "IjSijs_cOtRPqwmjs"
+      )
       .then((response) => {
-        setSuccessMessage('Message envoyé avec succès !');
-        setErrorMessage('');
+        setSuccessMessage("Message envoyé avec succès !");
+        setErrorMessage("");
         setFormData({
-          name: '',
-          email: '',
-          message: ''
+          name: "",
+          email: "",
+          message: "",
         });
       })
       .catch((err) => {
-        setErrorMessage('Une erreur est survenue, veuillez réessayer.');
-        setSuccessMessage('');
+        setErrorMessage("Une erreur est survenue, veuillez réessayer.");
+        setSuccessMessage("");
       });
   };
 
@@ -49,6 +55,7 @@ const ContactForm = () => {
             value={formData.name}
             onChange={handleChange}
             required
+            autoComplete="name"
           />
         </div>
         <div className="form-group">
@@ -60,6 +67,7 @@ const ContactForm = () => {
             value={formData.email}
             onChange={handleChange}
             required
+            autoComplete="email"
           />
         </div>
         <div className="form-group">
@@ -70,6 +78,7 @@ const ContactForm = () => {
             value={formData.message}
             onChange={handleChange}
             required
+            autoComplete="off"
           />
         </div>
         <button type="submit">Envoyer</button>
