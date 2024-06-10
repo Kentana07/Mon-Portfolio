@@ -1,19 +1,19 @@
 .home {
     text-align: center;
     padding: 2rem;
-    color: #ffd700; 
+    color: #F3D849; 
     font-family: 'Cinzel', serif; 
   }
   
   .home h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #0ff; 
+    color: #0A62D0; 
     font-family: 'Orbitron', sans-serif; 
   }
   
   .home p {
     font-size: 1.2rem;
-    color: #ddd;
+    color: #E0E5E9;
   }
   

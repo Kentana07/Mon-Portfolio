@@ -1,9 +1,9 @@
 .project-item {
-    border: 1px solid #444;
+    border: 1px solid #464345;
     padding: 1rem;
     border-radius: 8px;
     transition: box-shadow 0.3s;
-    background-color: #333;
+    background-color: #191718;
   }
   
   .project-item h2 {
@@ -15,11 +15,11 @@
   
   .project-item p {
     font-size: 1.25rem;
-    color: #ddd;
+    color: #E0E5E9;
   }
   
   .project-item a {
-    color: #ffd700; 
+    color: #F3D849; 
     text-decoration: none;
   }
   

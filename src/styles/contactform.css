@@ -2,7 +2,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background: #222; 
+    background: #191718; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
@@ -11,7 +11,7 @@
   .contact-form-container h2 {
     margin-bottom: 20px;
     text-align: center;
-    color: #ffffff;
+    color: #E0E5E9;
   }
   
   .contact-form .form-group {
@@ -22,14 +22,14 @@
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #0ff;
+    color: #0A62D0;
   }
   
   .contact-form .form-group input,
   .contact-form .form-group textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #E0E5E9;
     border-radius: 4px;
     box-sizing: border-box;
   }
@@ -43,8 +43,8 @@
     display: block;
     width: 100%;
     padding: 10px;
-    background: #007bff;
-    color: #fff;
+    background: #0A62D0;
+    color: #E0E5E9;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -53,7 +53,7 @@
   }
   
   .contact-form button:hover {
-    background: #0056b3;
+    background: #0A62D0;
   }
   
   .contact-form .success-message,

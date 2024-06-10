@@ -1,7 +1,7 @@
 .about {
     padding: 2rem;
-    background-color: #222;
-    color: #ffd700; 
+    background-color: #191718;
+    color: #F3D849; 
     font-family: 'Cinzel', serif; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -13,7 +13,7 @@
     font-size: 2rem;
     text-align: center;
     margin-bottom: 20px;
-    color: #0ff; 
+    color: #0A62D0; 
     font-family: 'Orbitron', sans-serif; 
   }
   .about section {
@@ -21,12 +21,12 @@
   }
   .about h2 {
     margin-bottom: 10px;
-    border-bottom: 2px solid #0ff;
+    border-bottom: 2px solid #0A62D0;
     display: inline-block;
   }
   .about p {
     font-size: 1.2rem;
-    color: #ddd;
+    color: #E0E5E9;
   }
   
 .timeline {
@@ -38,5 +38,5 @@
 }
 
 .timeline-item h3 {
-  color: #ffd700;
+  color: #F3D849;
 }

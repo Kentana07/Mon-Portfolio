@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #111;
-  color: #ddd;
+  background-color: #191718;
+  color: #E0E5E9;
 }
 
 main {
@@ -15,11 +15,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffd700;
+  color: #F3D849;
 }
 
 a {
-  color: #0ff; 
+  color: #0A62D0; 
   text-decoration: none;
 }
 
@@ -28,8 +28,8 @@ a:hover {
 }
 
 button {
-  background-color: #444;
-  color: #ffd700; 
+  background-color: #191718;
+  color: #F3D849; 
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -38,18 +38,18 @@ button {
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #6b6869;
 }
 
 input,
 textarea {
   padding: 0.5rem;
-  border: 1px solid #444;
+  border: 1px solid #3a3537;
   border-radius: 4px;
   width: 100%;
   margin-bottom: 1rem;
-  background-color: #222;
-  color: #ddd;
+  background-color: #191718;
+  color: #E0E5E9;
 }
 
 .page-enter {

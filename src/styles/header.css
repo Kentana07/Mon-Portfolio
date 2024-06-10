@@ -1,9 +1,9 @@
 .header {
-    background-color: #333;
+    background-color: #191718;
     padding: 1rem;
-    color: white;
+    color: #E0E5E9;
     font-family: 'Cinzel', serif; 
-    border-bottom: 2px solid #ffd700; 
+    border-bottom: 2px solid #F3D849; 
   }
   
   .header nav ul {
@@ -15,7 +15,7 @@
   }
   
   .header nav ul li a {
-    color: #ffd700; 
+    color: #F3D849; 
     text-decoration: none;
     font-weight: bold;
     font-family: 'Orbitron', sans-serif; 
@@ -23,7 +23,7 @@
   
   .header nav ul li a:hover {
     text-decoration: underline;
-    color: #0ff; 
+    color: #0A62D0; 
   }
   
   @media (max-width: 768px) {

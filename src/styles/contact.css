@@ -1,25 +1,25 @@
 .contact {
     padding: 2rem;
     text-align: center;
-    background-color: #222;
-    color: #ffd700; 
+    background-color: #191718;
+    color: #F3D849; 
     font-family: 'Cinzel', serif; 
   }
   
   .contact h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #0ff; 
+    color: #0A62D0; 
     font-family: 'Orbitron', sans-serif; 
   }
   .contact h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #ffd700; 
+    color: #F3D849; 
     font-family: 'Orbitron', sans-serif; 
   }
   .contact p {
     font-size: 1.2rem;
-    color: #ddd;
+    color: #E0E5E9;
   }
   
