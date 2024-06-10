@@ -4,33 +4,53 @@ import "../styles/about.css";
 const About = () => (
   <div className="about">
     <h1>À propos de moi</h1>
-    <h1>Formation :</h1>
-    <h1>2019</h1>
-    <p>
-      Bac (général, technique ou professionnel) ou équivalent - Sciences et
-      technologies de l'industrie et du développement durable , spécialité SIN
-    </p>
-    <h1>2020</h1>
-    <p>1e annee BTS SISN 1er trimestre BTS SISN au lycee astier aubenas</p>
-    <h1>2024</h1>
-    <p>
-      Openclassrooms ; Développeur intégrateur web - code NSF 326t - Diplôme de
-      niveau 5 (bac +2) - certification professionnelle enregistrée au
-      Répertoire National des Certifications Professionnelles (RNCP)
-    </p>
-    <h1>Compétences :</h1>
-    <p>
-      Système embarqué, Établir un cahier des charges, Concevoir une application
-      web Informatique scientique et technique, HTML, CSS, SASS, JavaScript,
-      React & Redux, les appels API, Visual Studio Code, le responsive design,
-      Git & GitHub
-    </p>
-    <h1>Savoir-être :</h1>
-    <p>Curiosité, Autonomie, Prise de recul, Rigueur</p>
-    <h1>Langues :</h1>
-    <p>Anglais Courant</p>
-    <p>Espagnol Débutant</p>
-    <p>Japonais Débutant</p>
+    
+    <section>
+      <h2>Formation :</h2>
+      <div className="timeline">
+        <div className="timeline-item">
+          <h3>2019</h3>
+          <p>
+            Bac (général, technique ou professionnel) ou équivalent - Sciences et
+            technologies de l'industrie et du développement durable, spécialité SIN
+          </p>
+        </div>
+        <div className="timeline-item">
+          <h3>2020</h3>
+          <p>1e année BTS SISN 1er trimestre BTS SISN au lycée Astier Aubenas</p>
+        </div>
+        <div className="timeline-item">
+          <h3>2024</h3>
+          <p>
+            Openclassrooms ; Développeur intégrateur web - code NSF 326t - Diplôme de
+            niveau 5 (bac +2) - certification professionnelle enregistrée au
+            Répertoire National des Certifications Professionnelles (RNCP)
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <h2>Compétences :</h2>
+      <p>
+        Système embarqué, Établir un cahier des charges, Concevoir une application
+        web, Informatique scientifique et technique, HTML, CSS, SASS, JavaScript,
+        React & Redux, les appels API, Visual Studio Code, le responsive design,
+        Git & GitHub
+      </p>
+    </section>
+    
+    <section>
+      <h2>Savoir-être :</h2>
+      <p>Curiosité, Autonomie, Prise de recul, Rigueur</p>
+    </section>
+    
+    <section>
+      <h2>Langues :</h2>
+      <p>Anglais : Courant</p>
+      <p>Espagnol : Débutant</p>
+      <p>Japonais : Débutant</p>
+    </section>
   </div>
 );
 
