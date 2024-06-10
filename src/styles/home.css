@@ -3,19 +3,30 @@
   padding: 2rem;
   color: #f3d849;
   font-family: "Cinzel", serif;
-  background: url("../styles/img/font.webp") no-repeat center center fixed;
-  background-size:auto;
+  background: url("../styles/img/font.webp") center/cover no-repeat;
   position: relative;
+  overflow: hidden;
 }
-.home::before {
+
+.home::before,
+.home::after {
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
+  width: 20%; 
   height: 100%;
-  width: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+  background: inherit;
   z-index: 1;
+}
+
+.home::before {
+  left: 0;
+  background-position: left;
+}
+
+.home::after {
+  right: 0;
+  background-position: right;
 }
 
 .home h1 {
@@ -23,9 +34,13 @@
   margin-bottom: 1rem;
   color: #0a62d0;
   font-family: "Orbitron", sans-serif;
+  position: relative;
+  z-index: 2;
 }
 
 .home p {
   font-size: 1.2rem;
   color: #e0e5e9;
+  position: relative;
+  z-index: 2;
 }
