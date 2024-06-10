@@ -3,7 +3,7 @@
   padding: 2rem;
   color: #f3d849;
   font-family: "Cinzel", serif;
-  background: url("../styles/img/font.webp") center/cover no-repeat;
+  background: url("../styles/img/font.webp") no-repeat;
   position: relative;
   overflow: hidden;
 }
@@ -12,20 +12,19 @@
 .home::after {
   content: "";
   position: absolute;
-  top: 0;
   width: 20%; 
   height: 100%;
   background: inherit;
   z-index: 1;
+  top: 0;
 }
 
 .home::before {
+  background-position: 0;
   left: 0;
-  background-position: left;
 }
 
 .home::after {
-  right: 0;
   background-position: right;
 }
 
