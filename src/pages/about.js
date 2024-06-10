@@ -1,4 +1,8 @@
 import React from "react";
+import backgroundImage1 from "../../public/langue.webp";
+import backgroundImage2 from "../../public/langue2_.webp";
+import backgroundImage3 from "../../public/langue3.webp";
+import backgroundImage4 from "../../public/téléchargement.webp";
 import "../styles/about.css";
 
 const About = () => (
@@ -39,6 +43,12 @@ const About = () => (
         Git & GitHub
       </p>
     </section>
+    <div className="images-container">
+      <img src={backgroundImage1} alt="Projet 1" />
+      <img src={backgroundImage2} alt="Projet 2" />
+      <img src={backgroundImage3} alt="Projet 3" />
+      <img src={backgroundImage4} alt="Projet 4" />
+    </div>
     
     <section>
       <h2>Savoir-être :</h2>
