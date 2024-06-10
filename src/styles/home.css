@@ -3,8 +3,8 @@
   padding: 2rem;
   color: #f3d849;
   font-family: "Cinzel", serif;
-  background: url("../../public/font.webp") no-repeat center center fixed;
-  background-size: cover;
+  background: url("../styles/img/font.webp") no-repeat center center fixed;
+  background-size:auto;
   position: relative;
 }
 .home::before {
