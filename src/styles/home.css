@@ -44,3 +44,45 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+@media (max-width: 1024px) {
+  .home img {
+    width: 15%;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .left-image,
+  .right-image {
+    position: static;
+    transform: translateY(0);
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .content {
+    margin: 0;
+  }
+
+  .home img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .home h1 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .home img {
+    width: 70%;
+  }
+}
