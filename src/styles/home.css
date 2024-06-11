@@ -1,29 +1,17 @@
 .home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 2rem;
   color: #f3d849;
   font-family: "Cinzel", serif;
-  background: url("../styles/img/font.webp") no-repeat;
   position: relative;
-  overflow: hidden;
 }
 
-.home::before,
-.home::after {
-  content: "";
-  position: absolute;
-  width: 20%; 
-  height: 100%;
-  background: inherit;
-  z-index: 1;}
-
-.home::before {
-  background-position: 0;
-  left: 0;
-}
-
-.home::after {
-  background-position: right;
+.content {
+  max-width: 800px;
+  margin: 0 2rem;
 }
 
 .home h1 {
@@ -31,13 +19,28 @@
   margin-bottom: 1rem;
   color: #0a62d0;
   font-family: "Orbitron", sans-serif;
-  position: relative;
-  z-index: 2;
 }
 
 .home p {
   font-size: 1.2rem;
   color: #e0e5e9;
-  position: relative;
-  z-index: 2;
+}
+
+.home img {
+  width: 20%;
+  height: auto;
+}
+
+.left-image {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right-image {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
