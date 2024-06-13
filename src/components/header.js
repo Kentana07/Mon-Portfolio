@@ -7,7 +7,7 @@ function Header() {
     <header className="header">
       <nav>
         <ul>
-          <li><Link to="/">Bienvenus</Link></li>
+          <li><Link to="/">Bienvenue</Link></li>
           <li><Link to="/about">A Propos</Link></li>
           <li><Link to="/projects">Mes Projets</Link></li>
           <li><Link to="/contact">Mes Contacts</Link></li>
